@@ -1,0 +1,8 @@
+{
+    "CategoryManagement": true,
+    "OrderManagement": true,
+    "ProductManagement": true,
+    "SuplierManagement": true,
+    "ReviewManagement": true,
+    "UserManagement": true
+}

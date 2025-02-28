@@ -1,0 +1,30 @@
+{
+    "name": "nwidart/categorymanagement",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\CategoryManagement\\": "app/",
+            "Modules\\CategoryManagement\\Database\\Factories\\": "database/factories/",
+            "Modules\\CategoryManagement\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\CategoryManagement\\Tests\\": "tests/"
+        }
+    }
+}
